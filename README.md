@@ -5,12 +5,9 @@ Data should answer a question for you right?  I want to use my experience in lea
 
 ### Are people more dangerous drivers now then when I first started driving?
 
-To try to answer this question I'll start by doing a data comparison on a city's traffic accidents and incidents.  Since I would expect a natural increase in this amount over time I'll also visualise the data alongside the city's population growth. If I have time I'll also try this comparison on other cities to see if I can see the same, if any, trend in the data.
+I could just as well answer this question by looking at national historical traffic data but I would like to see what conclusions I can on my own.  To try to answer this question I'll start by doing a data comparison on a city's traffic accidents and incidents.  Since I would expect a natural increase in this amount over time I'll also visualise the data alongside the city's population growth. If it is still within my schedule I'll also try this comparison on other cities to see if I can see the same, if any, trend in the data.
 
-I expect to compare monthly and yearly traffic conditions to graph a chart of the increase of said incidents over time.  I also would be interested if I can find data on a small enough scale
-to see how this data graphs through the week and maybe even the day.
-
-I will start by researching this on my home city since it's where I ask this question almost daily: Louisville.
+I expect to compare monthly and yearly traffic conditions to graph a chart of the increase of said incidents over time.  I also would be interested if I can find data on a small enough scale to see how this data graphs through the week and maybe even the day.  I will start by researching this on my home city since it's where I ask this question almost daily: Louisville.
 
 
 # Features
