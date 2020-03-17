@@ -12,7 +12,7 @@ I expect to compare monthly and yearly traffic conditions to graph a chart of th
 
 # Features
 
-placeholder
+- Python (version 3.7.4)
 
 
 # Timeline
@@ -45,14 +45,7 @@ placeholder
 [Car and Pedestrian Data from lousivilleky.gov](https://data.louisvilleky.gov/dataset/traffic-collisions)
 [Population from census.gov](https://www.census.gov/quickfacts/fact/table/louisvillejeffersoncountybalancekentucky,US/PST045219)
 
-2. Cincinnati Data
-[Traffic Crash Reports for Cincinnati](https://data.cincinnati-oh.gov/Safety/Traffic-Crash-Reports-CPD-/rvmt-pkmq)
-[Population from census.gov](https://www.census.gov/quickfacts/fact/table/cincinnaticityohio,US/PST045219)
+2. NHTSA Department of Transportation Data
+[NHTSA Quarterly](https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812874)
 
-3. Lexington Data
-[Lexington Fatal Crash and Accident](http://www.city-data.com/accidents/acc-Lexington-Fayette-Kentucky.html)
-[Population from census.gov](https://www.census.gov/quickfacts/fact/table/lexingtonfayettekentucky,US/PST045219)
-
-# Project journal
-- Week 1
-I can already see from researching the data I want to use that this will be challenging to present.  While I seem to have found consisent data in the population information from census.gov the governments of the different cities each share their data in different ways. The Louisville data seems to be the easiest to work with.  If I have time to solve the challenge I get to pull the data out of the websites for the other two cities.  If I spent more time researching I could likely find cleaner data to work with but I'll acomplish my goal with the Louisville data and succeeding or failing in the others will at least get me more experience coding.
+### See the wiki on github for project journal.
