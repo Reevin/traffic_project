@@ -1,8 +1,41 @@
 {% extends "layout.html" %}
 {% block content %}
 <div>
-    <h1>Test</h1>
-    <p>Test, test two
+    <h1>Traffic Project</h1>
+    <h3>by Stephen McClure</h3>
+    <p>I went into this project with the mindset of answering a question I've had for years:</p>
+    <p><strong>Are people more dangerous drivers now since I started driving?</strong></p>
+    <p>The idea would be to find data I can use to answer this question.  I would start by finding data on accidents since those mostly are reported.</p>
+
+    <h2>The Data</h2>
+    <p>What I found is a summary of the US total reported traffic accidents by quarter.</p>
+
+    Here I will link a RAW copy of the data set.
+
+    <p>After cleaning the table with SQL and turning into a graph I am presented with this result:</p>
+    
+    Here I will display the image of the table I created with the data set.
+
+    <p>
+        Interestingly enough visualising the data this way I noticed two things.
+        Firstly that traffic incidents have leveled out since 2007 and while there has been a short climb
+            since I would say this doesn't show enough for me to definitively say people are more dangerous drivers.
+        In fact the second thing I noticed is that the incidents climb for each summer.
+        With the exception of 2014 each year is a pyramid peaking in summer of accidents.
+        What this may suggest to me is that maybe instead of people being more dangerous I just noticed it more
+            because I probably follow the same trend and drive more in the summer.
+        This is also fascinating because despite road conditions being worse in the winter it is the lowest accounting of incidents each year.
+        Although I have to bear in mind this data likely only represents reported incidents.
     </p>
+
+    <h2>Alternate Louisville Specific Data</h2>
+    <p>
+        While researching my data, the first data set I found wasn't suitable to a bar graph given that the incidents weren't timestamped
+            but I thought about playing around with it here to see what conclusions I could draw from it.
+    </p>
+
+    Here I will link a RAW copy of the data set
+
+    Here I will display the histogram of the most reported incidents.
 </div>
 {% endblock %}
