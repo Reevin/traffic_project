@@ -1,41 +1,49 @@
-{% extends "layout.html" %}
-{% block content %}
-<div>
-    <h1>Traffic Project</h1>
-    <h3>by Stephen McClure</h3>
-    <p>I went into this project with the mindset of answering a question I've had for years:</p>
-    <p><strong>Are people more dangerous drivers now since I started driving?</strong></p>
-    <p>The idea would be to find data I can use to answer this question.  I would start by finding data on accidents since those mostly are reported.</p>
-
-    <h2>The Data</h2>
-    <p>What I found is a summary of the US total reported traffic accidents by quarter.</p>
-
-    Here I will link a RAW copy of the data set.
-
-    <p>After cleaning the table with SQL and turning into a graph I am presented with this result:</p>
-    
-    <img src="./static/img/traffic_incidents.png" alt="graph of quarterly traffic incidents between 2007 and 2019">
-
-    <p>
-        Interestingly enough visualising the data this way I noticed two things.
-        Firstly that traffic incidents have leveled out since 2007 and while there has been a short climb
-            since I would say this doesn't show enough for me to definitively say people are more dangerous drivers.
-        In fact the second thing I noticed is that the incidents climb for each summer.
-        With the exception of 2014 each year is a pyramid peaking in summer of accidents.
-        What this may suggest to me is that maybe instead of people being more dangerous I just noticed it more
-            because I probably follow the same trend and drive more in the summer.
-        This is also fascinating because despite road conditions being worse in the winter it is the lowest accounting of incidents each year.
-        Although I have to bear in mind this data likely only represents reported incidents.
-    </p>
-
-    <h2>Alternate Louisville Specific Data</h2>
-    <p>
-        While researching my data, the first data set I found wasn't suitable to a bar graph given that the incidents weren't timestamped
-            but I thought about playing around with it here to see what conclusions I could draw from it.
-    </p>
-
-    Here I will link a RAW copy of the data set
-
-    Here I will display the histogram of the most reported incidents.
-</div>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Traffic Report</title>
+        <link rel="stylesheet" href="/static/css/main.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style="background-color: lightgrey;">
+        <h1>Traffic Project</h1>
+        <h3>by Stephen McClure</h3>
+        <div>
+            <p>I went into this project with the mindset of answering a question I've had for years.  
+            <strong>Are people more dangerous drivers now since I started driving?</strong>  
+            The idea would be to find data I can use to answer this question.  I would start by finding data on accidents since those mostly are reported.</p>
+        
+            <h2>The Data</h2>
+            <p>What I found is a summary of the US total reported traffic accidents by quarter going back to 2007.</p>
+        
+            <a href='https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812874'>Source of quarterly data from NHTSA.</a>
+        
+            <p>After getting the data, I cleaned the table to focus on just the quarter totals and then graphed them:</p>
+            
+            <img src="./static/img/traffic_incidents.png" alt="graph of quarterly traffic incidents between 2007 and 2019">
+        
+            <p>
+                Interestingly enough visualising the data this way I noticed two things.
+                Firstly that traffic incidents have leveled out since 2007 and while there has been a short climb
+                    since I would say this doesn't show enough for me to definitively say people are more dangerous drivers.
+                In fact the second thing I noticed is that the incidents climb for each summer.
+                With the exception of 2014 each year is a pyramid peaking in summer of accidents.
+                What this may suggest to me is that maybe instead of people being more dangerous I just noticed it more
+                    because I probably follow the same trend and drive more in the summer.
+                This is also fascinating because despite road conditions being worse in the winter it is the lowest accounting of incidents each year.
+                Although I have to bear in mind this data likely only represents reported incidents.
+            </p>
+        
+            <h2>Alternate Louisville Specific Data</h2>
+            <p>
+                While researching my data, the first data set I found wasn't suitable to a bar graph given that the incidents weren't timestamped
+                    but I thought about playing around with it here to see what conclusions I could draw from it.
+            </p>
+        
+            <a href='https://data.louisvilleky.gov/dataset/traffic-collisions'>Louisville Collision Data Source</a>
+            
+            Here I will display the histogram of the most reported incidents.
+        </div>
+    </body>
+</html>
