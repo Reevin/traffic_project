@@ -1,12 +1,10 @@
 body {
-    background-color: grey;
+    background-color: lightgrey;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1em;
 }
 
 h1 {
     text-align: center;
     color: darkblue;
-}
-
-.content {
-    background-color: grey;
 }
