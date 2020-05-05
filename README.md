@@ -19,7 +19,7 @@ I expect to compare monthly and yearly traffic conditions to graph a chart of th
 
 # Installation / Viewing Instructions
 
-Make sure you have Python and Flask installed after downloading the repo.  Run "webpage.py" through Flask in the terminal.  If you are using VS code it did this for me automatically to open a terminal and run the flask webserver.  Once the webserver is running open your internet explorer and navigate to "localhost:8000" to view the presentation page.  Alternatively if you wish to see the raw data cleaning processes open either "traffic.ipynb" or "jefferson_county.ipynb" with Jypter notebook.
+Make sure you have Python and Flask installed after downloading the repo.  Run "flask/webpage.py" through Flask in the terminal.  If you are using VS code it did this for me automatically to open a terminal and run the flask webserver.  Once the webserver is running open your internet explorer and navigate to "localhost:8000" to view the presentation page.  Alternatively if you wish to see the raw data cleaning processes open either "traffic.ipynb" or "jefferson_county.ipynb" with Jypter notebook.
 
 
 # Timeline
