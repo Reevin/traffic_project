@@ -22,7 +22,7 @@
         
             <p>After getting the data, I cleaned the table to focus on just the quarter totals and then graphed them:</p>
             
-            <img src="./static/img/traffic_incidents.png" alt="graph of quarterly traffic incidents between 2007 and 2019">
+            <img src="./static/img/traffic_incidents.png" alt="graph of quarterly traffic incidents in the US between 2007 and 2019">
         
             <p>
                 Interestingly enough visualising the data this way I noticed two things.
@@ -37,14 +37,34 @@
             </p>
         
             <h2>Alternate Louisville Specific Data</h2>
+            <a href='https://data.louisvilleky.gov/dataset/traffic-collisions'>Louisville Collision Data Source</a>
             <p>
-                While researching my data, the first data set I found wasn't suitable to a bar graph given that the incidents weren't timestamped
-                    but I thought about playing around with it here to see what conclusions I could draw from it.
+                While researching my data, the first data set I found I thought wasn't suitable to a graph given that the incidents weren't timestamped
+                    but towards the end of my project I found out that the data was in fact timestamped and I missed that due to the fact I hadn't worked with
+                    such a large dataset before.  So after working through the data towards the end of my project I graphed the data like so in a similar fashion
+                    to the data I mapped above:
             </p>
         
-            <a href='https://data.louisvilleky.gov/dataset/traffic-collisions'>Louisville Collision Data Source</a>
+            <img src="./static/img/jefferson_incidents.png" alt="graph of quarterly traffic incidents in Jefferson County between 20010 and 2017">    
             
-            Here I will display the histogram of the most reported incidents.
+            <p>I'm happy that I got this to work before my conclusion for the project because this data tells a different story than the national average.
+                What stands out most to me is that the data shifts two seasons. The winter is the worst season in Jefferson County each year, and 
+                that over time in this county, traffic has indeed gotten worse year to year.  However my Jefferson Data starts in the year 2010 
+                comparing it the the national numbers, I'm missing the hill that crested back in 2007.  There's even an increase in traffic over time 
+                in the national average starting around 2014 and that lines up with the spike in the Louisville Data.
+            </p>
+
+            <h2>My Conclusion</h2>
+
+            <p>After seeing both datasets I think I can conclude that my question about dangerous drivers is based upon more than just drivers.  Given the average in 
+                the whole of the US driving is more dangerous in the summertime.  Though in the densest county in Kentucky, driving is more dangerous in the winter. 
+                This result is probably related to the weather as I had though at first and if I revisit this project in the future I will endeavor to not only map a 
+                few other large cities as I first wanted, but also try to compare the data to the weather.
+            </p>
+
+            <p>Thank you for your time thus far and if you wish to see my specific coding on developing the graphs I encourage you to explore the project files and 
+                view the Jypter notebook files "traffic.ipynb" and "jefferson_county.ipynb" included with it.
+            </p>
         </div>
     </body>
 </html>
